@@ -1,11 +1,12 @@
 import colors from "vuetify/es5/util/colors";
 const fs = require("fs");
+
 export default {
   ssr: false,
+  target: "static", // Ensure the target is set to 'static'
   server: {
     port: 4000
   },
-  // target: "static",
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: "%s",
