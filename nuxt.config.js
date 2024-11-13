@@ -4,6 +4,7 @@ const fs = require("fs");
 export default {
   ssr: false,
   target: "static", // Ensure the target is set to 'static'
+  buildDir: "dist",
   server: {
     port: 4000
   },
