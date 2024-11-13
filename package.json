@@ -1,0 +1,34 @@
+{
+  "name": "jacon-webadmin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "@types/vuelidate": "^0.7.13",
+    "cookieparser": "^0.1.0",
+    "core-js": "^3.8.3",
+    "fs": "^0.0.1-security",
+    "js-cookie": "^2.2.1",
+    "multiparty": "^4.2.3",
+    "nuxt": "^2.14.12",
+    "vee-validate": "^3.4.5",
+    "vue-gallery-slideshow": "^1.5.2",
+    "vue-lazyload": "^1.3.3",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-toastification": "^1.7.11",
+    "vue2-dropzone": "^3.6.0",
+    "vuelidate": "^0.7.6",
+    "zeptomail": "^6.1.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "~2.15.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/vuetify": "^1.11.3"
+  }
+}

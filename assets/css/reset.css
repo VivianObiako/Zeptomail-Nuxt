@@ -1,0 +1,111 @@
+html,body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+p{
+  margin: 0!important;
+  font-size: 15px;
+  line-height: 22px;
+}
+a{
+  text-decoration: none;
+}
+@media only screen and (min-width: 1024px)  {
+  .container{
+    width: 1200px!important;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 965px)  {
+  .container{
+    width: 90%!important;
+  }
+}
+.w-full{
+  width: 100%;
+}
+.white--text{
+  color: white;
+}
+.pri-color{
+  color: #FB675E!important;
+}
+.pri-bg{
+  background-color: #FB675E!important;
+}
+.light-bg{
+  background: #F9F9F9;
+}
+.pri-btn{
+  background: #FB855E;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 5px;
+}
+
+.sec-title{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+}
+@media only screen and (max-width: 768px) {
+  .sec-title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+  }
+}
+.sec-padding{
+  padding: 70px 0;
+}
+
+
+
+/*-- font sizes --*/
+
+.fs-10 {
+  font-size: 10px !important;
+}
+.fs-12 {
+  font-size: 12px !important;
+}
+.fs-14 {
+  font-size: 14px !important;
+}
+.fs-18 {
+  font-size: 18px !important;
+}
+.fs-16 {
+  font-size: 16px !important;
+}
+.fs-20 {
+  font-size: 20px !important;
+}
+.fs-24 {
+  font-size: 24px !important;
+}
+.ml-40 {
+  margin-left: 40px !important;
+}
+.mr-20 {
+  margin-right: 20px !important;
+}
+.fw-bold{
+  font-weight: bold;
+}
+.fw-600{
+  font-weight: 600;
+}
+
+.fw-400{
+  font-weight: 400;
+}
+.fw-500{
+  font-weight: 600;
+}
+
+.line-h-32{
+  line-height: 32px;
+}
